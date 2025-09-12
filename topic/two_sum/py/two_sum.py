@@ -9,5 +9,5 @@ class Solution:
 
             if remain in exist:
                 return [exist[remain], idx]
-            else:
-                exist[value] = idx
+
+            exist[value] = idx
