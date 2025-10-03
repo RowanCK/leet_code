@@ -16,3 +16,7 @@ class Solution:
                 right = mid - 1
 
         return left
+
+s = Solution()
+print(s.searchInsert([0, 1, 2, 3], 3))
+print(s.searchInsert([0, 1, 2, 3], 3))
